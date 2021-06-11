@@ -6,6 +6,8 @@ The `flights.csv` dataset contains the information around 1 million delayed flig
 
 - Jupyter Notebook: `.ipynb`  version of the Jupyter notebook
 - Markdown: `.md` version of the Jupyter Notebook
+- Dataset: the flights datasets
+- Map: the U.S. states map used in `geopandas` plotting
 
 # References
 
