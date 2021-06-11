@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Flights Dataset and PageRank
 
-You can use the [editor on GitHub](https://github.com/kaixin-wang/PageRank-Flights/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- Author: Kaixin Wang
+- Date: Spring 2021
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this project, we will look at how to analyze the flights dataset using the PageRank algorithm. The flights dataset consists of three data files, `flights.csv`, `airports.csv` and `airlines.csv`, which are collected by the Bureau of Transportation Statistics and are available online at https://www.kaggle.com/usdot/flight-delays. 
 
-### Markdown
+The `flights.csv` dataset contains the information around 1 million delayed flights in 2015. The `airports.csv` dataset contains the information of 322 airports in the United States. The goal is to analyze which airports are the center for flight delays by calculating the PageRank of each airport.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Jupyter Notebook: `.ipynb`  version of the Jupyter notebook
+- Markdown: `.md` version of the Jupyter Notebook
+- Map: the U.S. states map used in `geopandas` plotting
 
-```markdown
-Syntax highlighted code block
+# References
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaixin-wang/PageRank-Flights/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Song, S., and Alabi, D. (2013), “PageRank on flights dataset,” MangoDB Blog. https://www.mongodb.com/blog/post/pagerank-on-flights-dataset.
+2. Department of Transportation (2015), "2015 Flight Delays and Cancellations," Kaggle. https://www.kaggle.com/usdot/flight-delays.
+3. Stewart, R. (2018), "GeoPandas 101: Plot any data with a latitude and longitude on a map," Towards Data Science. https://towardsdatascience.com/geopandas-101-plot-any-data-with-a-latitude-and-longitude-on-a-map-98e01944b972.
+4. Jcutrer (2020), "GeoPandas Tutorial: How to plot US Maps in Python," Jcutrer. https://jcutrer.com/python/learn-geopandas-plotting-usmaps. 
+5. Sheikh, S. (2019), "The Graph Theory — An Introduction In Python," Medium. https://medium.com/apprentice-journal/the-graph-theory-an-introduction-in-python-5906d5be0e4b
