@@ -19,5 +19,3 @@ The `flights.csv` dataset contains the information around 1 million delayed flig
 4. Jcutrer (2020), "GeoPandas Tutorial: How to plot US Maps in Python," Jcutrer. https://jcutrer.com/python/learn-geopandas-plotting-usmaps. 
 5. Sheikh, S. (2019), "The Graph Theory — An Introduction In Python," Medium. https://medium.com/apprentice-journal/the-graph-theory-an-introduction-in-python-5906d5be0e4b
 
-![formula](https://render.githubusercontent.com/render/math?math=ax + b)
-
