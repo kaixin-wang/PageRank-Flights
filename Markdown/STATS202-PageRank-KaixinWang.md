@@ -10,11 +10,10 @@ The `flights.csv` dataset contains the information around 1 million delayed flig
 
 Recall that the PageRank is a measure of how important a node is inside a graph (or network) described as a probability. The general formula for computing the PageRank is as follows:
 
-```math
-\begin{equation} PR(i) = \frac{1-d}{N} + d \sum_{j \in M(i)} \frac{PR(j)}{L(j)}, i = 1, ..., N \end{equation}
-```
 
-where `$PR(i)$ ` represents the PageRank of node `$i$`, `$d$` is the damping factor (typically has the value of 0.85), `$N$` is the total number of nodes, `$M(i)$` is the set of nodes that have outbound links to node `$i$`, and `$L(j)$` is the number of outbound links that node `$j$` has. 
+$$`PR(i) = \frac{1-d}{N} + d \sum_{j \in M(i)} \frac{PR(j)}{L(j)}, i = 1, ..., N`$$
+
+where $`PR(i)`$ represents the PageRank of node $`i`$, $`d`$ is the damping factor (typically has the value of 0.85), $`N`$ is the total number of nodes, $`M(i)`$ is the set of nodes that have outbound links to node $`i`$, and $`L(j)`$ is the number of outbound links that node $`j`$ has. 
 
 ## Preparation
 
