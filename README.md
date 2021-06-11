@@ -1,7 +1,7 @@
 # Flights Dataset and PageRank
 
-author: Kaixin Wang
-date: Spring 2021
+- author: Kaixin Wang
+- date: Spring 2021
 
 In this project, we will look at how to analyze the flights dataset using the PageRank algorithm. The flights dataset consists of three data files, `flights.csv`, `airports.csv` and `airlines.csv`, which are collected by the Bureau of Transportation Statistics and are available online at https://www.kaggle.com/usdot/flight-delays. 
 
